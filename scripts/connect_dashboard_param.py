@@ -78,7 +78,7 @@ def main():
     )
     parser.add_argument("--instance-id",
                         help="Amazon Connect Instance ID (e.g. 12345678-1234-1234-1234-123456789012)")
-    parser.add_argument("--instance-name", default="iba-cc",
+    parser.add_argument("--instance-name", default="cc",
                         help="Friendly name for your Connect instance (e.g. Prod-Contact-Center)")
     parser.add_argument("--queue-type", choices=["STANDARD", "AGENT", "ALL"], default="ALL",
                         help="Queue type to fetch (default: STANDARD)")
