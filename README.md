@@ -25,6 +25,7 @@ This AWS CDK will create an Amazon CloudWatch Dashboard which displays Connect m
 7. In the CloudShell terminal, enter: `cd amazon-connect-instance-dashboard`.
 8. Then enter the following commands:
 ```bash
+python ./scripts/connect_dashboard_params.py
 npm install
 cdk bootstrap
 cdk deploy
